@@ -1,0 +1,21 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Time</title>
+</head>
+<body>
+<h1>Smart Time</h1>
+<h2>Schedule</h2>
+<ul>
+{% for task in tasks %}
+<li>{{ task.name }} - {{ task.description }} - {{ task.start_time }} - {{ task.end_time }}</li>
+{% endfor %}
+</ul>
+<br>
+<a href="/">Home</a>
+</body>
+</html>
+
+
