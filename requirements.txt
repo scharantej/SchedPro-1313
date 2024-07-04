@@ -1,0 +1,5 @@
+Flask
+Flask-WTF
+gunicorn>=20.10.0
+MarkupSafe
+Werkzeug>=2.1.2
