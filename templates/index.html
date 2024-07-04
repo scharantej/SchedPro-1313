@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Time</title>
+</head>
+<body>
+<h1>Smart Time</h1>
+<p>Enter your tasks and time slots below to create a personalized schedule.</p>
+<form action="/add_task" method="POST">
+<label for="name">Task Name:</label>
+<input type="text" name="name" id="name">
+<br>
+<label for="description">Task Description:</label>
+<input type="text" name="description" id="description">
+<br>
+<label for="start_time">Start Time:</label>
+<input type="datetime-local" name="start_time" id="start_time">
+<br>
+<label for="end_time">End Time:</label>
+<input type="datetime-local" name="end_time" id="end_time">
+<br>
+<input type="submit" value="Add Task">
+</form>
+<br>
+<a href="/generate_schedule">Generate Schedule</a>
+<br>
+<a href="/settings">Settings</a>
+</body>
+</html>
+
+
